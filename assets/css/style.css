@@ -1,0 +1,74 @@
+/* remove margin and padding on all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* more on this crazy alphanumerical value in a minute! */
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* add padding and background color */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+/* style text to be bold and a different size/color */
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+/* eliminate blue link style and change text color */
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+/* Move all links to the right and add margin top */
+header nav {
+  float: right;
+  margin: 7px 0;
+}
+
+/* have all text in li display on one line */
+header nav ul li {
+  display: inline;
+}
+
+/* change font style on a tags in lielements */
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+}
+
+footer h2 {
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
