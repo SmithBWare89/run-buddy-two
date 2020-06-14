@@ -357,6 +357,16 @@ footer a {
   flex: 1;
 }
 
+.trainer-img {
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  padding: 15px;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+
 .trainer-1 {
   background-image: url(../images/trainer-1.jpg);
   background-size: cover;
@@ -372,15 +382,6 @@ footer a {
   background-position: center;
 }
 
-.trainer-img {
-  width: 100%;
-  min-height: 300px;
-  display: flex;
-  padding: 15px;
-  align-items: flex-end;
-  position: relative;
-  overflow: hidden;
-}
 
 .trainer-bio {
   padding: 25px;
